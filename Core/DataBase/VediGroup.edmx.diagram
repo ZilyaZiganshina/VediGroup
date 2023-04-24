@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d39cdd8650084551baf5a2b3a6beca22" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="VediGroupModel.City" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.Country" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.Hotel" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.Role" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.Tour" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.Tourist" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.TouristTour" Width="1.5" PointX="9.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.User" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="VediGroupModel.VisaAvailability" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="VediGroupModel.FK_City_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_Hotel_City" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_Tour_City" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_Tour_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_Tour_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_TouristTour_Tour" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_Tourist_VisaAvailability" ManuallyRouted="false" />
+        <AssociationConnector Association="VediGroupModel.FK_TouristTour_Tourist" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
